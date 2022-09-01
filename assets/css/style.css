@@ -38,3 +38,18 @@ h2{
     text-decoration: underline;
 }
 
+.contact-info{
+    padding: 20px;
+    border-bottom: 5px solid white;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(43, 117, 119);
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+legend {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: double;
+
+}
