@@ -42,9 +42,9 @@ h2{
 
 .contact-info{
     padding: 20px;
-    border-bottom: 5px solid white;
+    border-bottom: 1px solid white;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
     color: rgb(43, 117, 119);
     font-family: "Lucida Console", "Courier New", monospace;
     text-align: center;
@@ -53,5 +53,23 @@ legend {
     font-weight: bold;
     text-align: center;
     text-decoration: double;
+}
+/*Contact page */
+input[type='submit'] {
+    font-size: 1.0em;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+input:hover{
+    background-color: rgb(224, 203, 175);
+}
+#address {
+    padding: 4px;
+    font-size: medium;
+}
 
+#email {
+    padding: 4px;
+    font-size: medium;
 }
