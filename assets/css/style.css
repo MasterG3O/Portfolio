@@ -59,7 +59,7 @@ input[type='submit'] {
     font-size: 1.0em;
     padding: 5px;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 input:hover{
     background-color: rgb(224, 203, 175);
