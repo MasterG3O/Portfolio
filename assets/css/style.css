@@ -57,6 +57,7 @@ legend {
 /*Contact page */
 input[type='submit'] {
     font-size: 1.0em;
+    text-decoration-color: black;
     padding: 5px;
     border-radius: 5px;
     background-color: white;
