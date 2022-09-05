@@ -18,7 +18,7 @@ nav ul {
 nav ul li a {
     list-style: none;
     text-decoration: none;
-    color:rgb(145, 220, 162);
+    color:rgb(255, 255, 255);
     font-weight:bold;
 
 }
@@ -68,9 +68,25 @@ input:hover{
 #address {
     padding: 4px;
     font-size: medium;
+    text-align: center;
+    text-decoration: none;
 }
 
 #email {
     padding: 4px;
     font-size: medium;
+    text-align: center;
+    text-decoration: none;
+    
+}
+table {
+    border: 3px solid black;
+    width: 100%;
+    text-align: center;
+    
+}
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
 }
