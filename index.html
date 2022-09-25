@@ -3,21 +3,44 @@
    <head>  
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width">
-
-<link href ="./assets/css/style.css" rel="stylesheet">
-
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link href ="./assets/css/styles.css" rel="stylesheet">
   <title>Welcome!</title>
-        <div class = "container">
-    <nav>
-        <ul class="navbar">
-            <img src = "assets/images/Glogo.jpeg" alt ="Geordanis Logo">
-            <li> <a href = "./index.html">Home</a></li>
-            <li> <a href = "./assets/Projects.html">Projects</a></li>
-            <li> <a href = "./assets/Resume.html">Resumé</a></li>
-            <li> <a href = "./assets/contact.html">Contact</a></li>
+ 
+
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="./assets/images/Glogo.jpeg" alt="Bootstrap" width="60" height="50">
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/Projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./assets/Resume.html">Resume</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./assets/contact.html">Contact</a></li>
+              <li><a class="dropdown-item" href="./assets/images/Glogo.jpeg">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
         </ul>
-    </nav>
-</div> 
+      </div>
+    </div>
+  </nav>
 
 <h1>  Geordanis Mondeja </h1> 
 <h1> Software Development Student</h1>
