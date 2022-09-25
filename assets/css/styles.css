@@ -1,27 +1,22 @@
 body{
     background-color: #4E5565;
 }
-
 nav ul li {
     padding: 10px 10px;
     margin: 10px 10px;
     list-style: none;
-
-
-
 }
+
 nav ul {
     display: sticky;
-
 }
+
+    background-color: #4E5565;
 
 nav ul li a:hover{
     background-color: #4E5565;
     border-radius: 6px;
 }
-
-
-    
 
 h1 , h2 {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -30,55 +25,4 @@ h1 , h2 {
 
 h2{
     text-decoration: underline;
-}
-
-.contact-info{
-    padding: 20px;
-    border-bottom: 1px solid white;
-    text-align: center;
-    font-size: 1.6em;
-    color: rgb(43, 117, 119);
-    font-family: "Lucida Console", "Courier New", monospace;
-    text-align: center;
-}
-legend {
-    font-weight: bold;
-    text-align: center;
-    text-decoration: double;
-}
-/*Contact page */
-input[type='submit'] {
-    font-size: 1.0em;
-    text-decoration-color: black;
-    padding: 5px;
-    border-radius: 5px;
-    background-color: white;
-}
-input:hover{
-    background-color: rgb(224, 203, 175);
-}
-#address {
-    padding: 4px;
-    font-size: medium;
-    text-align: center;
-    text-decoration: none;
-}
-
-#email {
-    padding: 4px;
-    font-size: medium;
-    text-align: center;
-    text-decoration: none;
-    
-}
-table {
-    border: 3px solid black;
-    width: 100%;
-    text-align: center;
-    
-}
-td,
-th {
-    border: 1px solid black;
-    padding: 5px;
 }

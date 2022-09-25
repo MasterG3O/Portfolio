@@ -1,0 +1,63 @@
+/*Contact page */
+body{
+    background-color: #4E5565;
+    text-align: center;
+}
+
+nav ul li {
+    padding: 10px 10px;
+    margin: 10px 10px;
+    list-style: none;
+}
+
+nav ul {
+    display: sticky;
+}
+
+nav ul li a:hover{
+    background-color: #4E5565;
+    border-radius: 6px;
+}
+
+h1 , h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
+}
+.contact-info{
+    padding: 20px;
+   font-size: 1.6em;
+    color: rgb(0, 0, 0);
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+    margin: 10px 10px ;
+}
+
+legend {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: double;
+}
+
+
+input[type='submit'] {
+    font-size: 1.0em;
+    text-decoration-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+input:hover{
+    background-color: rgb(70, 45, 45))
+}
+label{
+    font-size:20px;
+}
+
+    
+
+
+

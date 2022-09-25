@@ -3,75 +3,71 @@
    <head>  
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width">
-<link href ="./css/styles.css" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link href ="./css/contact.css" rel="stylesheet">
 
-<body>
 </head>
 <title>Contact info</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-
-<nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="./index.html">G</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../assets/Projects.html">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./Resume.html">Resume</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Contact
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="./assets/contact.html">Contact</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+< <nav class="navbar navbar-expand-lg bg-light">
+      <a class="navbar-brand" href="index.html">
+          <img src="../assets/images/Glogo.jpeg" alt="Bootstrap" width="60" height="50">
+        </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Resume.html">Resume</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/assets/contact.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./assets/contact.html">Contact</a></li>
+            <li><a class="dropdown-item" href="./assets/images/Glogo.jpeg">Another action</a></li>
+            <li><a class="dropdown-item" href="./README.md">Something else here</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-  </nav>`
+  </div>
+</nav>
 
 <h1>YOUR CONTACT INFO!</h1>
 
-<div class = "contact-info">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email">
+<div class="mb-3">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name">
+  </div>
+  <label for="email" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="email">
 </div>
-<div class = "contact-info">
-    <label for="pnumber">Phone #:</label>
-    <input type="text" id="address" name="address">
-</div>
-<div class="contact-info">
-<input type="submit" value="SUBMIT">
-</div>
-<h2>CONTACT</h2>
 
-        <table>
-            <thead>
-                <tr>
-                    <th> <a href = "mailto: gmondeja32@gmail.com">Email</a></th>
-                    <th>PHONE</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td> gmondeja32@gmail.com</td>
-                    <td>702-481-7640</td>
-                </tr> 
-            </tbody>
-        </table>
+<p>Select frequency of newsletters</p>
+          <select class="form-select" aria-label="Default weekly">
+            <option selected>Email</option>
+            <option value="1">Phone Text</option>
+            <option value="2">Phone Call</option>
+          </select> 
 
+
+<!-- ************************** -->
+<!-- Submit button add class btn btn-primary to the button -->
+<!-- ************************** -->
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+<h2>CONTACT Me</h2>
 
 </html>
 </body>
